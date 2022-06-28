@@ -4,12 +4,14 @@
   "main": "dist/index.js",
   "author": "Minigugus <43109623+Minigugus@users.noreply.github.com>",
   "scripts": {
-    "build": "rollup -c"
+    "start": "create-serve public",
+    "build": "node rollup.config.mjs; rollup -c"
   },
   "name": "webcontainer-runtime",
   "description": "WebContainer-like runtime for OS-like features in the browser",
   "license": "MIT",
   "devDependencies": {
+    "@btwiuse/serve": "^1.0.2",
     "rollup": "^2.56.3",
     "rollup-plugin-typescript2": "^0.30.0",
     "typescript": "^4.4.2"

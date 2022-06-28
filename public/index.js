@@ -42,7 +42,7 @@ try {
     await new Response(`Welcome to bash.js!
 This is an exemple of what could be possible with the upcoming WebContainer specification.
 
-Checkout \x1B[4mhttps://github.com/Minigugus/webcontainer-shell/tree/v2\x1B[0m
+Checkout \x1B[4mhttps://github.com/btwiuse/webcontainer-shell/tree/v2\x1B[0m
 
 Type \x1B[1;3mhelp\x1B[0m to get started\n`)
       .body
